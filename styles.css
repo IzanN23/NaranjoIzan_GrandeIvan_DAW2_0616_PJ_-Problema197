@@ -1,1 +1,25 @@
+/* Estilos sencillos para que el formulario sea legible. */
+body {
+    font: 1rem/1.5 system-ui, sans-serif;
+    margin: 2rem auto;
+    max-width: 52rem;
+    padding: 0 1rem;
+}
 
+textarea {
+    box-sizing: border-box;
+    min-height: 10rem;
+    width: 100%;
+}
+
+button {
+    margin-top: .75rem;
+    padding: .5rem 1rem;
+}
+
+pre {
+    background: #f2f2f2;
+    overflow-wrap: anywhere;
+    padding: 1rem;
+    white-space: pre-wrap;
+}
