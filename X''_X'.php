@@ -46,7 +46,6 @@ if ($mensaje !== '') {
     <p>Esta parte deshace la transformación de X'' a X'.</p>
 
     <!-- Formulario para escribir y enviar el mensaje cifrado. -->
-    <!-- GET envía el texto en la dirección de la página. -->
     <form>
         <label for="mensaje">Escribe el mensaje cifrado (X''):</label>
         <textarea id="mensaje" name="mensaje" required><?= htmlspecialchars($mensaje) ?></textarea>
