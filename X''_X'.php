@@ -45,7 +45,9 @@ if ($mensaje !== '') {
     <h1>Problema 197: mensaje interceptado</h1>
     <p>Esta parte deshace la transformación de X'' a X'.</p>
 
-    <form method="get">
+    <!-- Formulario para escribir y enviar el mensaje cifrado. -->
+    <!-- GET envía el texto en la dirección de la página. -->
+    <form>
         <label for="mensaje">Escribe el mensaje cifrado (X''):</label>
         <textarea id="mensaje" name="mensaje" required><?= htmlspecialchars($mensaje) ?></textarea>
         <button type="submit">Enviar</button>
