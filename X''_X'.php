@@ -49,7 +49,6 @@ $mensajeIntermedio = null;
     <p>Esta parte deshace únicamente la transformación de X'' a X'.</p>
 
     <!-- Formulario para escribir y enviar el mensaje cifrado. -->
-    <!-- GET envía el texto en la dirección de la página. -->
     <form>
         <label for="mensaje">Escribe el mensaje cifrado (X''):</label>
         <!-- name="mensaje" permite leer el texto desde $_GET['mensaje'] en PHP. -->

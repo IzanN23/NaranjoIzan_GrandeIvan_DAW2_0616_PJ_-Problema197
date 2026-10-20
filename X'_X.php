@@ -24,3 +24,23 @@ function Cada2ConsonantesInv($array){
     return $res;
     
 }
+$mensaje = $_GET['mensaje'] ?? "";
+$res = $mensaje !== "" ? Cada2ConsonantesInv($mensaje) : null;
+?>
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Problema 197</title>
+</head>
+<body>
+    <form>
+        <textarea name="mensaje" required><?= htmlspecialchars($mensaje) ?></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <?php if ($res !== null): ?>
+        <pre><?= htmlspecialchars($res) ?></pre>
+    <?php endif; ?>
+</body>
+</html>
