@@ -20,14 +20,14 @@
         <a class="parte" href="X'_X.php">
             <h2>X' → X</h2>
             <p>Deshacer el cambio de las consonantes por su imagen especular.</p>
-            <span>Pendiente</span>
+            <span>Disponible</span>
         </a>
 
-        <section class="parte pendiente">
+        <a class="parte" href="X''_X.php">
             <h2>X'' → X</h2>
             <p>Aplicar las dos transformaciones inversas seguidas.</p>
             <span>Pendiente</span>
-        </section>
+        </a>
     </nav>
 </body>
 </html>
